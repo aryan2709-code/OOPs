@@ -10,7 +10,7 @@ class base{
 
 class derived: public base{
     private:
-    virtual void print() override{
+     void print() override{
         cout<<"Derived::print() \n";
     }
 };

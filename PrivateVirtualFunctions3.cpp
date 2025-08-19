@@ -13,7 +13,7 @@ void show()
 };
 
 class derived:public base{
-virtual void printme() override{
+void printme() override{
     cout << "Derived class calling printme()\n";
 }
 };
