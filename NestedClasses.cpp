@@ -34,3 +34,6 @@ int main()
     myBattery.showCapacity();
     return 0;
 }
+
+// Note : the outer class can not access nested class's private members and vice versa.
+// If you want to do so, you need to use friend functions or friend classes
